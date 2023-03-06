@@ -1,6 +1,13 @@
 # docker-containers
 Docker container CLI commads
 
+# Docker
+## Bridge network
+
+````
+docker network create -d bridge airflow_network
+````
+
 # Mysql
 
 ## arm64
