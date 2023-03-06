@@ -15,3 +15,10 @@ docker network create -d bridge airflow_network
 ````
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d arm64v8/mysql
 ````
+
+# Ariflow
+
+## arm64
+````
+docker run --rm -it --name airflow --platform linux/arm64 -p 8080:8080 -e AIRFLOW_UID=1000 -u root --network airflow_network apache/airflow:latest bash
+````
