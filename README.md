@@ -16,7 +16,7 @@ docker network create -d bridge airflow_network
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d arm64v8/mysql
 ````
 
-# Ariflow
+# Airflow
 
 ## arm64
 ````
